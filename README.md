@@ -7,7 +7,7 @@ The goal of this test is to apply some basic concepts of a microservice architec
 Build a REST API that works with a resource called "people" and supports the following operations:
 * POST /people
 * GET /people
-* GET /people/<id>
+* GET /people/:id
 
 As a data store the API must use a NoSQL database as a main datastore and an Elasticsearch instance for search support. As a maind db you are free to choose anyone you are comfortable to work with. 
 
@@ -77,7 +77,7 @@ Returns all people documents. When sending a GET request to this endpoint:
 * the api returns HTTP 200 if having success;
 * the api returns HTTP 500 in case of unexpected error.
 
-### GET /people/<id>
+### GET /people/:id
 
 Returns a single document by id. When sending a GET request to this endpoint:
 * the api returns a single document matching with the id passed on the uri;
