@@ -9,12 +9,12 @@ Build a REST API that works with a resource called "people" and supports the fol
 * GET /people
 * GET /people/:id
 
-As a data store the API must use a NoSQL database as a main datastore and an Elasticsearch instance for search support. As a maind db you are free to choose anyone you are comfortable to work with. 
+As a data store the API must use a NoSQL database and an Elasticsearch instance for search support. As a main database/datastore you are free to choose anyone you are comfortable to work with. 
 
 Before you start to work, it is strongly recommended to fork this repo. You are going to need that in order to send your code for analysis.
 
 ## Stack details
-* NodeJS (choos any version);
+* NodeJS (choose any version);
 * NPM packages (feel free to use those you like more);
 * NoSQL database (just pick anyone);
 * A message broker (RabbitMQ, ActiveMQ, ZeroMQ)
@@ -22,7 +22,9 @@ Before you start to work, it is strongly recommended to fork this repo. You are 
 
 ## Application Architecture specifics
 
-You are free to organize your project the way you like it and use the packages you want as soon as it attends the goals implementing exactly what we are describing on this doc.
+You are free to organize your project the way you like to do and use the packages you want as soon as it attends the goals implementing exactly what we are describing on this doc.
+
+Below you are going to find the description of the endpoints of our rest api.
 
 ### PEOPLE resource
 
