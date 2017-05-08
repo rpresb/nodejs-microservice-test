@@ -106,4 +106,4 @@ Returns a single document by id. When sending a GET request to this endpoint:
 
 ## FAQ
 
-In case of any question you need to open a Github issue on this repo with the label "question".
+In case of any question just send an e-mail to: vinicius.linck@e-core.com
