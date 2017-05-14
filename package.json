@@ -1,6 +1,9 @@
 {
   "name": "nodejs-microservice-test",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=6.10.2"
+  },
   "private": true,
   "description": "The goal of this test is to apply some basic concepts of a microservice architecture using NodeJS stack.",
   "scripts": {
