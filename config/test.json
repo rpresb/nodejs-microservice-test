@@ -1,0 +1,32 @@
+{
+    "mongo": {
+        "username": "",
+        "password": "",
+        "host": "localhost",
+        "port": 27017,
+        "database": "rpresb-test"
+    },
+    "rabbitmq": {
+        "host": "localhost",
+        "port": 5672,
+        "login": "guest",
+        "password": "guest",
+        "connectionTimeout": 10000,
+        "authMechanism": "AMQPLAIN",
+        "vhost": "/",
+        "noDelay": true,
+        "ssl": {
+            "enabled": false
+        }
+    },
+    "topic": {
+        "type": "topic",
+        "confirm": false,
+        "passive": false,
+        "durable": true,
+        "autoDelete": false
+    },
+    "elasticsearch": {
+        "host": "localhost:9200"
+    }
+}
